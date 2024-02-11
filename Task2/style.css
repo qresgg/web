@@ -1,5 +1,16 @@
-*{
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
     font-family: arial;
+}
+
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
 }
 .display-flex{
     display: flex;
@@ -40,6 +51,12 @@
 }
 .font-w-bold{
     font-weight: bold;
+}
+.padding{
+    padding: 20px;
+}
+.line-height{
+    line-height: 1.6;
 }
 .fs-1 {
     font-size: 49px;
