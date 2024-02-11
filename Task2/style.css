@@ -1,3 +1,14 @@
+*{
+    font-family: arial;
+}
+.display-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.row{
+    width: 100%;
+}
+
 /*desktop*/
 @media (min-width: 993px) {
     .col-lg-1 {
