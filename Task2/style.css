@@ -34,6 +34,9 @@
 .border{
     border: solid;
 }
+.caption-padding{
+    padding: 5px 20px;
+}
 .border10per{
     border-width: 10%;
 }
@@ -42,6 +45,15 @@
 }
 .bg-color-orange{
     background-color: orange;
+}
+.bg-color-palepink{
+    background-color: #FAD9D5;
+}
+.bg-color-redpurple{
+    background-color: #D80073;
+}
+.f-color-white{
+    color: white;
 }
 .border-left{
     border-left: solid;
