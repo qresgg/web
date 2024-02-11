@@ -8,7 +8,27 @@
 .row{
     width: 100%;
 }
-
+.row-padding{
+    padding: 2.5%;
+}
+.container-padding{
+    padding: 2.5%;
+}
+.f-direct-column{
+    flex-direction: column;
+}
+.align-items-end{
+    align-items: flex-end;
+}
+.border{
+    border: solid;
+}
+.border10per{
+    border-width: 10%;
+}
+.bg-color-lgreen{
+    background-color: #D5E8D4;
+}
 /*desktop*/
 @media (min-width: 993px) {
     .col-lg-1 {
