@@ -12,6 +12,12 @@
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
+.t-align-center{
+    text-align: center;
+}
+.margin-top{
+    margin-top: 30px;
+}
 .display-flex{
     display: flex;
     flex-wrap: wrap;
