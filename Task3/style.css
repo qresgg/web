@@ -10,8 +10,8 @@
 main{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 3em;
     padding: 0 5%;
+    grid-column-gap: 45px;
 }
 inner {
     background-color: #D5E8D4;
@@ -19,8 +19,31 @@ inner {
     display: grid;
     grid-template: repeat(2, 1fr);
 }
-main inner p {
+main cont inner p {
     padding: 4%;
     line-height: 1.65;
-    font-size: 1.15em;
+    font-size: 20px;
+}
+.label1 {
+    background-color: #F0A30A;
+}
+
+.label2 {
+    background-color: #D80073;
+    color: white;
+}
+
+.label3 {
+    background-color: #FAD9D5;
+}
+
+.label1,
+.label2,
+.label3 {
+    border-bottom: solid 3px black;
+    border-left: solid 3px black;
+    justify-self: end;
+    padding: 2% 4%;
+    font-size: 15px;
+    font-weight: bold;
 }
