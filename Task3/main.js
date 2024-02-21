@@ -7,9 +7,9 @@ function MyMathPower(b, n) {
     return r;
 }
 function MyMathPowerDefault1(b, n) {
-    b || 5;
-    n || 9;
-    return MyMathPower;
+    b = b || 5;
+    n = n || 9;
+    return MyMathPower(b, n);
 }
 function MyMathPowerDefault2(b = 5, n = 9){
     return MyMathPower(b, n);
