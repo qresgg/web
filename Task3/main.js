@@ -14,3 +14,19 @@ function MyMathPowerDefault1(b, n) {
 function MyMathPowerDefault2(b = 5, n = 9){
     return MyMathPower(b, n)
 }
+// b - основа степеня
+// r - степінь 
+// n - показник степеня
+
+function TestAllFunctions(){
+    MyMathPowerDefault1(3,4);
+    MyMathPowerDefault1(5);
+    MyMathPowerDefault1(null, 4);
+    MyMathPowerDefault1();
+    MyMathPowerDefault2(2,4);
+    MyMathPowerDefault2(2);
+    MyMathPowerDefault2(null, 6);
+    MyMathPowerDefault2();
+}
+
+TestAllFunctions();
