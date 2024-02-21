@@ -6,3 +6,8 @@ function MyMathPower(b, n) {
     console.log(`The ${n}th power of ${b} equals ${r}`);
     return r;
 }
+function MyMathPowerDefault1(b, n) {
+    b || 5;
+    n || 9;
+    return MyMathPower;
+}
