@@ -11,3 +11,6 @@ function MyMathPowerDefault1(b, n) {
     n || 9;
     return MyMathPower;
 }
+function MyMathPowerDefault2(b = 5, n = 9){
+    return MyMathPower(b, n)
+}
